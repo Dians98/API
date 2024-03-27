@@ -1,1 +1,7 @@
-API is used for communication betwenn application Test
+API is used for communication between application
+
+REST : Representational State Transfer, 
+    Rest is resource based identified by URis or Endpoint 
+        ex : server/api/users , users is the endpoint
+
+    Representation/result : most of time it's JSON, but it exist also on XML format
