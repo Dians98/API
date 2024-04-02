@@ -5,3 +5,30 @@ REST : Representational State Transfer,
         ex : server/api/users , users is the endpoint
 
     Representation/result : most of time it's JSON, but it exist also on XML format
+
+
+CRUD op -> Http Method -> Response code (passed/bad) 
+
+CREATE -> POST -> 201/400
+
+READ -> GET -> 200/404
+
+UPDATE -> PATCH -> 200/404
+
+DELETE -> DELETE -> 204/404
+
+
+PRACTICAL 
+
+    Install MongoDb and mongodb compass
+    Create a table new db : Api_udemy_tuto
+    create a collection(table) students
+    go to https://www.mockaroo.com/ , and generate mock data in JSON and not including null data
+
+    A node.js ALWAYS need to be initiated with npm init -y
+    Need to instal express : npm i express
+    Install mongodb driver to connect to mongodb : go to mongodb-> ressource- >mongodb drivers -> nodejs -> install
+    Install nodemon to monitor changes in nodejs : npm i -g nodemon
+    create app.js, and use it with nodemon : nodemon app.js
+    Connect on express (look at comments on app.js)
+    Create a new file database.js in order to connect on mongodb driver
